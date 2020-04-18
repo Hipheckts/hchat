@@ -4,8 +4,10 @@ import 'package:hchat/widgets/ChatListWidget.dart';
 import 'package:hchat/widgets/InputWidget.dart';
 
 class ConversationPage extends StatefulWidget {
+
   @override
   _ConversationPageState createState() => _ConversationPageState();
+  const ConversationPage();
 }
 
 class _ConversationPageState extends State<ConversationPage> {
